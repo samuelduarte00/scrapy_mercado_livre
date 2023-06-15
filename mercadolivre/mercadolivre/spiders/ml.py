@@ -25,5 +25,3 @@ class MlSpider(scrapy.Spider):
             '//a[contains(@title, "Próxima")]/@href').get()
         if next_page:
             yield scrapy.Request(url=next_page, callback=self.parse)
-
-# para rodar scrapy crawl ml -o pagination.json
