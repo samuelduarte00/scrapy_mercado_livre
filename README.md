@@ -52,7 +52,7 @@ AUTOTHROTTLE_ENABLED = True
 
 ## Exemplo
 
-```bash
+```python
 import scrapy
 
 
